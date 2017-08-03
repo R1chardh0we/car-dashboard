@@ -7,12 +7,12 @@ services:
 env:
   global:
   - CF_APP=car-dashboard
-  - CF_API=https://api.au-syd.bluemix.net
-  - CF_ORG=iwinoto@au1.ibm.com
-  - CF_ACCOUNT=iwinoto@au1.ibm.com
-  - CF_SPACE=bluemix-demo
-  - REGISTRY=registry.au-syd.bluemix.net
-  - REGISTRY_NAMESPACE=iwinoto_ibm
+  - CF_API=https://api.ng.bluemix.net
+  - CF_ORG=rhowe@au1.ibm.com
+  - CF_ACCOUNT=rhowe@au1.ibm.com
+  - CF_SPACE=dev
+  - REGISTRY=registry.ng.bluemix.net
+  - REGISTRY_NAMESPACE=rhowe
   - IMAGE_NAME=car-dashboard
 
 before_install:
