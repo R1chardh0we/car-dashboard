@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: car-dashboard
-        image: registry.au-syd.bluemix.net/iwinoto_ibm/car-dashboard:1
+        image: registry.ng.bluemix.net/rhowe/car-dashboard:1
         imagePullPolicy: Always
         resources:
           requests:
@@ -22,7 +22,7 @@ spec:
             memory: 100Mi
         env:
           - name: WORKSPACE_ID
-            value: aae86491-04bb-4565-913e-08e5a1bdb40d
+            value: df23842b-c7e2-47e3-8acd-f4d6340f7e30
         volumeMounts:
           - mountPath: /opt/conversation-service-bind # Mount the "service-bind-volume" volume into the pod.
             name: conversation-service-bind-volume
