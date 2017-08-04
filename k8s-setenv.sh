@@ -23,7 +23,9 @@ REGISTRY=registry.ng.bluemix.net
 REGISTRY_NAMESPACE=rhowe
 IMAGE_NAME=$APP_NAME
 
+echo bx cr login
 bx cr login
+echo bx cs init
 bx cs init
 bx cs cluster-config $CLUSTER_NAME
 
